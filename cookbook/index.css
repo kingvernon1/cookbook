@@ -1,0 +1,24 @@
+body {
+  background-color: orange;
+  text: white;
+font-family: Rockwell;
+
+}
+div.header{
+  border: 5px solid brown;
+  margin-bottom: 10px;
+  background-color: brown;
+  font-size: 30px;
+  word-spacing: 10px;
+  text:orange;
+}
+h1 {
+  text: black;
+  font-style: ;
+  font-size: 50px;
+  font-family: Rockwell Extra Bold;
+}
+p {
+  word-spacing: 100px;
+  font-size:35px;
+}

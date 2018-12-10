@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<HTML>
+  <Head>
+    <title> yurr </title>
+  </head>
+    <body>
+    <script type="text/javascript">
+var request = new XMLHttpRequest();
+
+request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
+request.onload = function () {
+  alert(this.response);
+  }
+
+request.send(null);
+  </script>
+    </body>
+</html>
